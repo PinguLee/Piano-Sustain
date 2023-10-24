@@ -16,10 +16,20 @@
   display: flex;
 }
 
-.white-key {
-
+.key {
+  width: 40px;
+  height: 200px;
+  border: 1px solid #000;
+  margin-right: 2px;
+  cursor: pointer;
 }
 
-.black-key {
+.white {
+  background-color: white;
+  position: relative;
+}
 
+.black {
+  background-color: black;
+  position: relative;
 }
