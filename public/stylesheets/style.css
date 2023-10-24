@@ -1,19 +1,31 @@
-.piano {
-    display: flex;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.key {
-    width: 40px;
-    height: 200px;
-    margin-right: 5px;
-    background-color: white;
-    border: 1px solid #000;
-    cursor: pointer;
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.piano {
+  display: flex;
+  width: 800px;
+}
+.white-key {
+  flex: 1;
+  height: 200px;
+  border: 1px solid #000;
+  background-color: white;
+  cursor: pointer;
 }
 .black-key {
-    width: 30px;
-    height: 130px;
-    margin-right: -10px;
-    background-color: black;
-    position: relative;
-    top: -130px;
+  flex: 0.6;
+  position: relative;
+  height: 130px;
+  background-color: black;
+  margin: -10px -5px 0;
 }
