@@ -3,29 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 #root {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
-  background-color: #f0f0f0;
+  height:100vh;
 }
+
 .piano {
   display: flex;
-  width: 800px;
 }
+
 .white-key {
-  flex: 1;
-  height: 200px;
-  border: 1px solid #000;
-  background-color: white;
-  cursor: pointer;
+
 }
+
 .black-key {
-  flex: 0.6;
-  position: relative;
-  height: 130px;
-  background-color: black;
-  margin: -10px -5px 0;
+
 }
