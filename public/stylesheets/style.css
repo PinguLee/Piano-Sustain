@@ -1,52 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.piano {
+    display: flex;
 }
-
-a {
-  text-decoration: none;
-  text-decoration-line: none;
+.key {
+    width: 40px;
+    height: 200px;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px solid #000;
+    cursor: pointer;
 }
-#root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
-
-#lbl-Join {
-  color: blue;
-}
-
-.box {
-  display: flex;
-  width: 350px;
-  margin: 10px 0 10px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-.lbl {
-  color: #d9d9d9;
-  font-size: 20px;
-}
-
-.txt {
-  background-color: #d9d9d9;
-  border: none;
-  border-radius: 3px;
-  width: 300px;
-  height: 35px;
-  padding: 10px;
-  font-weight: bold;
-}
-
-#txt-Text {
-  height: 300px;
-}
-
-.hotpink {
-  background-color: #FF6666;
-  color: white;
+.black-key {
+    width: 30px;
+    height: 130px;
+    margin-right: -10px;
+    background-color: black;
+    position: relative;
+    top: -130px;
 }
